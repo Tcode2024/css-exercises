@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+
+    <!-- this is using a link for the external CSS method -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- this is using a <style> tag for the internal CSS method -->
     <style>
     p {
       color: white;
       background-color: green;
-      font-family: "Times New Roman";
-
+      font-size: 18px;
     }
     </style>
+
   </head>
   <body>
     <div>Style me via the external method!</div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button style="color: black; background-color: orange; font-family: Times New Roman">Inline Method</button>
+
+    <!-- this is using the inline method of adding the CSS selectors within the HTML attributes -->
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
   </body>
 </html>
