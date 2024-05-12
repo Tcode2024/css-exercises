@@ -1,0 +1,26 @@
+
+/* this is a "grouping selector",  when more than one class share the same properties */
+.c1,
+.c2 {
+ background-color: rgb(250, 165, 177);
+ font-size: 24px;
+ font-family: Verdana
+}
+
+/* this is a "class selector", which can be applied to more than one element */
+.c2 {
+    font-size: 36px;
+}
+
+
+/* this is a "ID selector" , which is unique to a single element */
+#title {
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+#title2 {
+    background-color: rgb(124, 255, 126);
+    font-weight: bold;
+    font-size: 24px;
+}
