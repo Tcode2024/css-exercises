@@ -1,26 +1,35 @@
 
-/* this is a "grouping selector",  when more than one class share the same properties */
-.c1,
-.c2 {
- background-color: rgb(250, 165, 177);
- font-size: 24px;
- font-family: Verdana
+/* this is a "class selector",  when more than one class share the same properties
+for all the odd numbered elements */
+
+.odd {
+ background-color: rgb(255, 167, 167);
+ font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 /* this is a "class selector", which can be applied to more than one element */
-.c2 {
-    font-size: 36px;
+.adjust-font-size {
+    font-size: 24px;
 }
 
 
 /* this is a "ID selector" , which is unique to a single element */
-#title {
+#two {
     color: rgb(0,0,255);
     font-size: 36px;
 }
 
-#title2 {
+/*
+    In the id selector 'four' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+
+#four {
     background-color: rgb(124, 255, 126);
     font-weight: bold;
-    font-size: 24px;
 }
