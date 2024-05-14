@@ -1,3 +1,4 @@
+/* this is a type selector, the style will be applied to all specified element type */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,7 +9,8 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* amended this to a chaining selector */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -39,4 +41,24 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* added selectors */
+
+/* this is a ID selector */
+#confirm-button {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+/* this is a class selector */
+.text {
+  font-weight: 100;
+}
+
+/* this is a descendant combinator */
+.text .child {
+ font-weight: bold;
+ font-size: 14px; 
 }
