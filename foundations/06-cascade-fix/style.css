@@ -9,32 +9,22 @@ body {
   font-weight: 800;
 }
 
-/* amended this to a chaining selector */
-.para.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
 .para {
   font-size: 22px;
 }
 
-.confirm {
+
+/* removed */
+/* .confirm {
   background: green;
   color: white;
   font-weight: bold;
-} 
+} */
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
 }
 
 div.text {
@@ -43,22 +33,32 @@ div.text {
   font-weight: 100;
 }
 
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* removed */
+/*.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}  */
+
+
+
 /* added selectors */
 
 /* this is a ID selector */
 #confirm-button {
   background-color: green;
   color: rgb(255, 255, 255);
-  font-size: 20px;
-}
-
-/* this is a class selector */
-.text {
-  font-weight: 100;
+  font-weight: bold;
 }
 
 /* this is a descendant combinator */
-.text .child {
+div .child {
+color: rgb(0, 0, 0);
  font-weight: bold;
  font-size: 14px; 
 }
