@@ -1,16 +1,47 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
+    /* my inputs */
+  border: solid red;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+
+  /* my inputs */
+  border: solid hotpink;
+ 
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  
+  /* my inputs */
+  border: solid blue;
+  margin-bottom: 32px;
+
 }
+
+/* my inputs */
+.info {
+  border: solid green;
+  max-width: 200px;
+  
+}
+
+/* my inputs */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+
+
+
 
 /* do not edit this footer */
 .footer {
