@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .modal {
@@ -20,6 +20,14 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+
+
+  /* my input */
+  border: solid red;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +41,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* my input */
+  border: solid purple;
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+  
 }
 
 .close-button {
@@ -48,22 +62,54 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
+
+  /* my input */
+  border: solid blue;
+
+  
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+
+  border: solid pink;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+
+  /* my input */
+  border: solid yellow;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+
+  /* my input */
+  border: solid black;
+
 }
+
+ /* my input */
+ .text {
+margin-bottom: 16px; 
+  
+ }
+
+  /* my input */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 8px;
+ 
+  }

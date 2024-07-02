@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+   /* my input */
+  display: flex;
+  flex-direction: column;
+
 }
 
 img {
@@ -16,6 +21,11 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* my input */
+  margin-top: 20px;
+  padding: 8px 16px;
+
 }
 
 input {
@@ -23,4 +33,47 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* my input */
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+/* my input */
+/* this removes the underline in the links */
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+
+/* my input */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+}
+
+/* my input */
+.footer {
+background-color: #eeeeee;
+}
+
+/* my input */
+/* this removes the dot points from the unordered list */
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
